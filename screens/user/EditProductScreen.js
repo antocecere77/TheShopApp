@@ -69,8 +69,7 @@ const EditProductScreen = props => {
       ]);
       return;
     }
-    if (editedProduct) {    
-      
+    if (editedProduct) {
       dispatch(
         productsActions.updateProduct(
           prodId,
